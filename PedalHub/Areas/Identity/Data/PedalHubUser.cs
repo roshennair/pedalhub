@@ -11,5 +11,8 @@ public class PedalHubUser : IdentityUser
 {
     [PersonalData]
     public string FullName { get; set; }
+
+    [PersonalData]
+    public string Type { get; set; }
 }
 
