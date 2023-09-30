@@ -6,6 +6,8 @@ C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\D
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\PedalHub.runtimeconfig.json
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\PedalHub.dll
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\PedalHub.pdb
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\AWSSDK.S3.dll
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\Humanizer.dll

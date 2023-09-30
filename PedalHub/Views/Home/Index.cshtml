@@ -12,14 +12,8 @@
 <div class="text-center">
     @if (SignInManager.IsSignedIn(User))
     {
-        @if (user.Type.Equals("Administrator"))
-        {
-            <h1 class="display-4">PedalHub Administrator Dashboard</h1>
-        }
-        else
-        {
-            <h1 class="display-4">PedalHub Customer Dashboard</h1>
-        }
+        <h1 class="display-4">PedalHub Customer Dashboard</h1>
+        <hr />
     } 
     else
     {    

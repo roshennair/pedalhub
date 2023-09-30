@@ -15,6 +15,16 @@ namespace PedalHub.Controllers
 
         public IActionResult Index()
         {
+            if (HttpContext.User.IsInRole("Administrator"))
+            {
+                return RedirectToAction("AdminIndex");
+            }
+
+            return View();
+        }
+
+        public IActionResult AdminIndex()
+        {
             return View();
         }
 

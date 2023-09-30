@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "PedalHub/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.205.3",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
           "Microsoft.AspNetCore.Identity.UI": "7.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
@@ -16,6 +17,25 @@
         },
         "runtime": {
           "PedalHub.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.202.17": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.202.17"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.205.3": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.202.17"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.205.3"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -2589,6 +2609,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.202.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fv87rDpHNYfJP1ePxdhewreJug2xnKGWdCGSKkuL/XBSVRfmpDOTFfJP7lztPT09zxexiGfK/yz60P6prKBijQ==",
+      "path": "awssdk.core/3.7.202.17",
+      "hashPath": "awssdk.core.3.7.202.17.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.205.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7bSjjNJgPsPPPdWL3ynBb938nEU3MPcEMforfE0xvM4asK3oyt4aL1m+WWG5b6l2OKvFcyyNh9z6YiaMPcp//g==",
+      "path": "awssdk.s3/3.7.205.3",
+      "hashPath": "awssdk.s3.3.7.205.3.nupkg.sha512"
     },
     "Azure.Core/1.24.0": {
       "type": "package",
