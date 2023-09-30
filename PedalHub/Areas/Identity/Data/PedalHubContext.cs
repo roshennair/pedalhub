@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PedalHub.Areas.Identity.Data;
+using PedalHub.Models;
 
 namespace PedalHub.Data;
 
@@ -11,6 +12,8 @@ public class PedalHubContext : IdentityDbContext<PedalHubUser>
         : base(options)
     {
     }
+
+    public DbSet<Bike> Bike { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

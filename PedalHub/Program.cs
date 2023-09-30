@@ -10,6 +10,7 @@ builder.Services.AddDbContext<PedalHubContext>(options => options.UseSqlServer(c
 
 builder.Services.AddDefaultIdentity<PedalHubUser>(
     options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<PedalHubContext>();
 
 // Add services to the container.
