@@ -1,0 +1,42 @@
+﻿@model Bike
+@using Microsoft.AspNetCore.Identity
+@using PedalHub.Areas.Identity.Data
+
+@inject UserManager<PedalHubUser> UserManager
+
+@{
+    ViewData["Title"] = "Reserve Bike";
+
+    var user = UserManager.GetUserAsync(User).Result;
+}
+
+<center>
+    <h1>Reserve Bike</h1>
+    <hr />
+    <div class="row">
+        <img src="@Model.ImageURL" style="max-width: 24rem;" class="mx-auto" />
+        <h4>@Model.Name</h4>
+        <div>
+            <b>Daily rental price (RM):</b> @Model.DailyRentalPrice
+        </div>
+        <div class="mb-3">
+            <b>Available units:</b> @Model.AvailableUnits
+        </div>
+        @if (Model.AvailableUnits >= 1)
+        {
+            <div>
+                <a asp-controller="Bikes" asp-action="Reserve" asp-route-bikeId="@Model.Id" asp-route-userId="@user.Id" class="btn btn-success">Reserve</a>
+                <a asp-controller="Bikes" asp-action="Index" class="btn btn-danger">Cancel</a>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning">
+                No available units at this time, please try again later.
+            </div>
+            <div class="mt-1">
+                <a asp-controller="Bikes" asp-action="Index" class="btn btn-danger">Cancel</a>
+            </div>
+        }
+    </div>
+</center>

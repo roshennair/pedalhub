@@ -1,0 +1,52 @@
+﻿@model List<Reservation>
+@using Microsoft.AspNetCore.Identity
+@using PedalHub.Areas.Identity.Data
+@using PedalHub.Data
+
+@inject UserManager<PedalHubUser> UserManager
+@inject PedalHubContext context
+
+@{
+    ViewData["Title"] = "My Reservations";
+}
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<center>
+    <h1>Reservations</h1>
+    <hr />
+    <table>
+        @if (Model.Count == 0)
+        {
+            <tr>No pending reservations found.</tr>
+        }
+        else
+        {
+            <p>The following table shows your pending bike reservations.</p>
+            <tr style="background-color: lightgrey;">
+                <th>Reservation ID</th>
+                <th>Bike ID</th>
+                <th>Bike Name</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+            @foreach (var reservation in Model)
+            {
+                var bike = context.Bike.Where(b => b.Id == reservation.BikeId).First();
+
+                <tr>
+                    <td>@reservation.Id</td>
+                    <td>@reservation.BikeId</td>
+                    <td>@bike.Name</td>
+                    <td>@reservation.CreatedAt</td>
+                    <td>
+                        <a asp-controller="Reservations" asp-action="Cancel" class="btn btn-danger" asp-route-id="@reservation.Id">Cancel</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</center>

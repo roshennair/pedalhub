@@ -51,7 +51,6 @@ namespace PedalHub.Controllers
         public async Task<IActionResult> AdminIndex()
         {
             List<Bike> bikeList = await _context.Bike.ToListAsync();
-            Console.WriteLine(bikeList.Count);
             return View(bikeList);
         }
 
@@ -114,6 +113,7 @@ namespace PedalHub.Controllers
             return View(bike);
         }
 
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(Bike updatedBike)
         {
             if (updatedBike == null)
@@ -122,6 +122,49 @@ namespace PedalHub.Controllers
             }
 
             _context.Bike.Update(updatedBike);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index", "Bikes");
+        }
+
+        [Authorize(Roles = "Customer")]
+        public async Task<IActionResult> ReserveBike(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            Bike bike = await _context.Bike.FindAsync(id);
+
+            if (bike == null)
+            {
+                return BadRequest("Bike with ID " + id + " is not found.");
+            }
+
+            return View(bike);
+        }
+
+        [Authorize(Roles = "Customer")]
+        public async Task<IActionResult> Reserve(int? bikeId, string? userId)
+        {
+            if (bikeId == null || userId == null) 
+            {
+                return NotFound();    
+            }
+
+            Bike bike = await _context.Bike.FindAsync(bikeId);
+
+            if (bike == null)
+            {
+                return BadRequest("Bike with ID " + bikeId + " is not found.");
+            }
+
+            Reservation newReservation = new Reservation();
+            newReservation.UserId = userId;
+            newReservation.BikeId = (int)bikeId;
+            newReservation.CreatedAt = DateTime.Now;
+
+            _context.Reservation.Add(newReservation);
             await _context.SaveChangesAsync();
             return RedirectToAction("Index", "Bikes");
         }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PedalHub.Data;
 
@@ -11,9 +12,11 @@ using PedalHub.Data;
 namespace PedalHub.Migrations
 {
     [DbContext(typeof(PedalHubContext))]
-    partial class PedalHubContextModelSnapshot : ModelSnapshot
+    [Migration("20231002170336_CreateReservationTable")]
+    partial class CreateReservationTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -283,7 +286,7 @@ namespace PedalHub.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Reservation");
+                    b.ToTable("Reservations");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

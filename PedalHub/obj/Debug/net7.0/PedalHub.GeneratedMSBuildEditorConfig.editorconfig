@@ -68,12 +68,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/ReserveBike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcUmVzZXJ2ZUJpa2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Home/AdminIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Reservations/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEFkbWluSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Reservations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/Error.cshtml]
