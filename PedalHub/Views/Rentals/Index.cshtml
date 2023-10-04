@@ -1,0 +1,63 @@
+﻿@model List<Rental>
+@using Microsoft.AspNetCore.Identity
+@using PedalHub.Areas.Identity.Data
+@using PedalHub.Data
+
+
+@inject UserManager<PedalHubUser> UserManager
+@inject PedalHubContext context
+
+
+@{
+	ViewData["Title"] = "My Rentals";
+}
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+        text-align: center;
+    }
+</style>
+
+<center>
+    <h1>Rentals</h1>
+    <hr />
+
+    <table>
+        @if (Model.Count == 0)
+        {
+            <tr>No rentals found.</tr>
+        }
+        else
+        {
+            <p>The following table shows your bike rentals.</p>
+            <tr style="background-color: lightgrey;">
+                <th>Rental ID</th>
+                <th>Bike ID</th>
+                <th>Bike Name</th>
+                <th>Ongoing Rental</th>
+                <th>Total Price</th>
+                <th>Duration</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+            @foreach (var rental in Model)
+            {
+                var bike = context.Bike.Where(b => b.Id == rental.BikeId).First();
+
+                <tr>
+                    <td>@rental.Id</td>
+                    <td>@rental.BikeId</td>
+                    <td>@bike.Name</td>
+                    <td>@(rental.IsOngoing ? "Yes" : "No")</td>
+                    <td>@(rental.TotalPrice.HasValue ? rental.TotalPrice.ToString() : "-")</td>
+                    <td>@(rental.Duration.HasValue ? rental.Duration.ToString() : "-")</td>
+                    <td>@rental.CreatedAt</td>
+                    <td>
+                        <a asp-controller="Rentals" asp-action="ReturnBike" class="btn btn-success" asp-route-id="@rental.Id">Return Bike</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</center>

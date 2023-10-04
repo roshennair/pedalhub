@@ -22,5 +22,13 @@ namespace PedalHub.Models
         [Required]
         public DateTime CreatedAt { get; set; }
 
+        public bool IsOngoing { get; set; } = true; // Default value is true
+
+        [Display(Name = "Total Price")]
+        public float? TotalPrice { get; set; } // Nullable float
+
+        [Display(Name = "Duration (Days)")]
+        public int? Duration { get; set; } // Nullable int
+
     }
 }
