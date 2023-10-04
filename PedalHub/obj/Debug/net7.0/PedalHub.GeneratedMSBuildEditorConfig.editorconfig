@@ -9,109 +9,109 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PedalHub
 build_property.RootNamespace = PedalHub
-build_property.ProjectDir = C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\
+build_property.ProjectDir = C:\Users\arvin\Desktop\pedalhub\PedalHub\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub
+build_property.MSBuildProjectDirectory = C:\Users\arvin\Desktop\pedalhub\PedalHub
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/AddBike.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Bikes/AddBike.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcQWRkQmlrZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/AdminIndex.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Bikes/AdminIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcQWRtaW5JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/EditBike.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Bikes/EditBike.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcRWRpdEJpa2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/Index.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Bikes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/ReserveBike.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Bikes/ReserveBike.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcUmVzZXJ2ZUJpa2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Home/AdminIndex.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Home/AdminIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Home/Index.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Reservations/AdminIndex.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Reservations/AdminIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEFkbWluSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Reservations/Index.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Reservations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/Error.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_FeaturesPartial.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Shared/_FeaturesPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GZWF0dXJlc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/_ViewImports.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/_ViewStart.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_Layout.cshtml]
+[C:/Users/arvin/Desktop/pedalhub/PedalHub/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z2rb5ulu9x

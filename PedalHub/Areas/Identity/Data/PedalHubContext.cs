@@ -17,6 +17,8 @@ public class PedalHubContext : IdentityDbContext<PedalHubUser>
 
     public DbSet<Reservation> Reservation { get; set; }
 
+    public DbSet<Rental> Rentals { get; set; }
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);

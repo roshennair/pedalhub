@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PedalHub.Data;
 
@@ -11,9 +12,11 @@ using PedalHub.Data;
 namespace PedalHub.Migrations
 {
     [DbContext(typeof(PedalHubContext))]
-    partial class PedalHubContextModelSnapshot : ModelSnapshot
+    [Migration("20231004063219_rentalTableAdded")]
+    partial class rentalTableAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -263,33 +266,6 @@ namespace PedalHub.Migrations
                     b.ToTable("Bike");
                 });
 
-            modelBuilder.Entity("PedalHub.Models.Rental", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("BikeId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("BikeId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Rentals");
-                });
-
             modelBuilder.Entity("PedalHub.Models.Reservation", b =>
                 {
                     b.Property<int>("Id")
@@ -366,25 +342,6 @@ namespace PedalHub.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("PedalHub.Models.Rental", b =>
-                {
-                    b.HasOne("PedalHub.Models.Bike", "Bike")
-                        .WithMany()
-                        .HasForeignKey("BikeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PedalHub.Areas.Identity.Data.PedalHubUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Bike");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("PedalHub.Models.Reservation", b =>

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roshe\\OneDrive - Asia Pacific University\\APU\\Degree\\Year 3\\Semester 2\\DDAC\\Group Assignment\\PedalHub\\PedalHub\\PedalHub.csproj": {}
+    "C:\\Users\\arvin\\Desktop\\pedalhub\\PedalHub\\PedalHub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roshe\\OneDrive - Asia Pacific University\\APU\\Degree\\Year 3\\Semester 2\\DDAC\\Group Assignment\\PedalHub\\PedalHub\\PedalHub.csproj": {
+    "C:\\Users\\arvin\\Desktop\\pedalhub\\PedalHub\\PedalHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roshe\\OneDrive - Asia Pacific University\\APU\\Degree\\Year 3\\Semester 2\\DDAC\\Group Assignment\\PedalHub\\PedalHub\\PedalHub.csproj",
+        "projectUniqueName": "C:\\Users\\arvin\\Desktop\\pedalhub\\PedalHub\\PedalHub.csproj",
         "projectName": "PedalHub",
-        "projectPath": "C:\\Users\\roshe\\OneDrive - Asia Pacific University\\APU\\Degree\\Year 3\\Semester 2\\DDAC\\Group Assignment\\PedalHub\\PedalHub\\PedalHub.csproj",
-        "packagesPath": "C:\\Users\\roshe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roshe\\OneDrive - Asia Pacific University\\APU\\Degree\\Year 3\\Semester 2\\DDAC\\Group Assignment\\PedalHub\\PedalHub\\obj\\",
+        "projectPath": "C:\\Users\\arvin\\Desktop\\pedalhub\\PedalHub\\PedalHub.csproj",
+        "packagesPath": "C:\\Users\\arvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arvin\\Desktop\\pedalhub\\PedalHub\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\roshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
