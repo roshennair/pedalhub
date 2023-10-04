@@ -21,8 +21,10 @@ namespace PedalHub.Models
         public int AvailableUnits { get; set; }
 
         [Display(Name = "Image")]
-        public string ImageURL { get; set; }
-        
-        public string ImageKey { get; set; }
+        public string ImageURL { get; set; } = null!;
+
+        public string ImageKey { get; set; } = null!;
+
+        public List<Reservation> Reservations = new List<Reservation>();
     }
 }

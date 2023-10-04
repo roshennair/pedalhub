@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
+using PedalHub.Models;
 
 namespace PedalHub.Areas.Identity.Data;
 
@@ -10,9 +11,11 @@ namespace PedalHub.Areas.Identity.Data;
 public class PedalHubUser : IdentityUser
 {
     [PersonalData]
-    public string FullName { get; set; }
+    public string FullName { get; set; } = null!;
 
     [PersonalData]
-    public string Type { get; set; }
+    public string Type { get; set; } = null!;
+
+    public List<Reservation> Reservations { get; set; } = new();
 }
 

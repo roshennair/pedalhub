@@ -23,5 +23,15 @@ public class PedalHubContext : IdentityDbContext<PedalHubUser>
         // Customize the ASP.NET Identity model and override the defaults if needed.
         // For example, you can rename the ASP.NET Identity table names and more.
         // Add your customizations after calling base.OnModelCreating(builder);
+
+        builder.Entity<Reservation>()
+            .HasOne(r => r.Bike)
+            .WithMany(r => r.Reservations)
+            .IsRequired(true);
+
+        builder.Entity<Reservation>()
+            .HasOne(r => r.User)
+            .WithMany(r => r.Reservations)
+            .IsRequired(true);
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PedalHub.Areas.Identity.Data;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PedalHub.Models
@@ -9,12 +10,14 @@ namespace PedalHub.Models
         public int Id { get; set; }
 
         [Required]
-        [ForeignKey("FK_UserId")]
-        public string UserId { get; set; }
+        public string UserId { get; set; } = null!;
+
+        public PedalHubUser User { get; set; } = null!;
 
         [Required]
-        [ForeignKey("FK_BikeId")]
         public int BikeId { get; set; }
+
+        public Bike Bike { get; set; } = null!;
 
         [Required]
         public DateTime CreatedAt { get; set; }
