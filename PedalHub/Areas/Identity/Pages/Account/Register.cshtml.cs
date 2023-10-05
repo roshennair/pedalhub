@@ -10,6 +10,8 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using Amazon.SimpleNotificationService.Model;
+using Amazon.SimpleNotificationService;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -20,6 +22,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using PedalHub.Areas.Identity.Data;
+using Amazon;
 
 namespace PedalHub.Areas.Identity.Pages.Account
 {
@@ -32,6 +35,24 @@ namespace PedalHub.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
+
+        private const string snsTopicARN = "arn:aws:sns:us-east-1:688301327840:PedalHub";
+
+        private List<string> getKeys()
+        {
+            List<string> keys = new List<string>();
+
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+            IConfigurationRoot configuration = builder.Build();
+
+            keys.Add(configuration["Values:Key1"]);
+            keys.Add(configuration["Values:Key2"]);
+            keys.Add(configuration["Values:Key3"]);
+
+            return keys;
+        }
 
         public RegisterModel(
             UserManager<PedalHubUser> userManager,
@@ -158,6 +179,19 @@ namespace PedalHub.Areas.Identity.Pages.Account
                     await _userManager.AddToRoleAsync(user, Input.Type);
 
                     _logger.LogInformation("User created a new account with password.");
+
+                    // subscribe to newsletter
+                    List<string> keys = getKeys();
+                    var snsClient = new AmazonSimpleNotificationServiceClient(keys[0], keys[1], keys[2], RegionEndpoint.USEast1);
+                    try
+                    {
+                        SubscribeRequest subscribeRequest = new SubscribeRequest(snsTopicARN, "email", user.Email);
+                        SubscribeResponse subscribeResponse = await snsClient.SubscribeAsync(subscribeRequest);
+                    }
+                    catch (AmazonSimpleNotificationServiceException ex)
+                    {
+                        return BadRequest(ex.Message);
+                    }
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

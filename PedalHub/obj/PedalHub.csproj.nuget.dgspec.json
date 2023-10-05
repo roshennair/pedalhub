@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[3.7.205.3, )"
             },
+            "AWSSDK.SimpleNotificationService": {
+              "target": "Package",
+              "version": "[3.7.200.51, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.10, )"

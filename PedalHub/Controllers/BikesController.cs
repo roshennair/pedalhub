@@ -6,20 +6,27 @@ using Microsoft.AspNetCore.Authorization;
 using PedalHub.Data;
 using PedalHub.Models;
 using Microsoft.EntityFrameworkCore;
+using Amazon.SimpleNotificationService;
+using Amazon.SimpleNotificationService.Model;
+using Microsoft.AspNetCore.Identity;
+using PedalHub.Areas.Identity.Data;
 
 namespace PedalHub.Controllers
 {
     public class BikesController : Controller
     {
         private readonly PedalHubContext _context;
+        private readonly UserManager<PedalHubUser> _userManager;
 
-        public BikesController(PedalHubContext context)
+        public BikesController(PedalHubContext context, UserManager<PedalHubUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         private const string s3BucketName = "pedalhub-bike-images";
         private const string cloudfrontDomain = "d35soteeq6wtnk.cloudfront.net";
+        private const string snsTopicARN = "arn:aws:sns:us-east-1:688301327840:PedalHub";
 
         private List<string> getKeys()
         {
@@ -93,6 +100,20 @@ namespace PedalHub.Controllers
 
             _context.Bike.Add(bike);
             await _context.SaveChangesAsync();
+
+            // send email broadcast
+            var broadcastText = "Hello dear PedalHub users! We have just added a new bike type to our collection called " + bike.Name + ". Head over to our website to reserve one for yourself now!";
+            var snsClient = new AmazonSimpleNotificationServiceClient(keys[0], keys[1], keys[2], RegionEndpoint.USEast1);
+            try
+            {
+                PublishRequest publishRequest = new PublishRequest(snsTopicARN, broadcastText);
+                PublishResponse publishResponse = await snsClient.PublishAsync(publishRequest);
+            }
+            catch (AmazonSimpleNotificationServiceException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
             return RedirectToAction("Index", "Bikes");
         }
 

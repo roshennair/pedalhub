@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eNQu4r1CurtKES/9yb9/emAki33wvEYcDuZEhyM5L9R6LjFmSM1MfLU6zq4kMIcIWt9cDDRrDcJ4Mq/sziWxgg==",
+  "dgSpecHash": "kZN9on71ezo3OaxB6yfzfcN5moqSnmXz8g8QVE00SScU/nuWRgSlLXQbzkMiLc8EVbGOgz7FrRacSreKQG500g==",
   "success": true,
   "projectFilePath": "C:\\Users\\roshe\\OneDrive - Asia Pacific University\\APU\\Degree\\Year 3\\Semester 2\\DDAC\\Group Assignment\\PedalHub\\PedalHub\\PedalHub.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\roshe\\.nuget\\packages\\awssdk.core\\3.7.202.17\\awssdk.core.3.7.202.17.nupkg.sha512",
+    "C:\\Users\\roshe\\.nuget\\packages\\awssdk.core\\3.7.202.20\\awssdk.core.3.7.202.20.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\awssdk.s3\\3.7.205.3\\awssdk.s3.3.7.205.3.nupkg.sha512",
+    "C:\\Users\\roshe\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.200.51\\awssdk.simplenotificationservice.3.7.200.51.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

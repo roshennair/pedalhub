@@ -22,7 +22,8 @@
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\roshe\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_CodeAnalysis_AnalyzerUtilities Condition=" '$(PkgMicrosoft_CodeAnalysis_AnalyzerUtilities)' == '' ">C:\Users\roshe\.nuget\packages\microsoft.codeanalysis.analyzerutilities\3.3.0</PkgMicrosoft_CodeAnalysis_AnalyzerUtilities>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\roshe\.nuget\packages\microsoft.entityframeworkcore.tools\7.0.10</PkgMicrosoft_EntityFrameworkCore_Tools>
-    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\roshe\.nuget\packages\awssdk.core\3.7.202.17</PkgAWSSDK_Core>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\roshe\.nuget\packages\awssdk.core\3.7.202.20</PkgAWSSDK_Core>
+    <PkgAWSSDK_SimpleNotificationService Condition=" '$(PkgAWSSDK_SimpleNotificationService)' == '' ">C:\Users\roshe\.nuget\packages\awssdk.simplenotificationservice\3.7.200.51</PkgAWSSDK_SimpleNotificationService>
     <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\roshe\.nuget\packages\awssdk.s3\3.7.205.3</PkgAWSSDK_S3>
   </PropertyGroup>
 </Project>
