@@ -6,7 +6,9 @@
 
 @{
     ViewData["Title"] = "Make Payment";
-    var bikeName = context.Bike.FindAsync(Model.BikeId).Result.Name;
+    var bike = context.Bike.FindAsync(Model.BikeId).Result;
+    var bikeName = bike.Name;
+    var bikeDailyRentalPrice = bike.DailyRentalPrice;
 }
 
 <center>
@@ -68,6 +70,10 @@
                     <tr>
                         <th>Created At:</th>
                         <td>@Model.CreatedAt</td>
+                    </tr>
+                    <tr>
+                        <th>Daily Rental Price (RM):</th>
+                        <td>@bikeDailyRentalPrice</td>
                     </tr>
                     <tr>
                         <th>Duration:</th>

@@ -96,6 +96,22 @@
           }
         }
       },
+      "AWSXRayRecorder.Handlers.AwsSdk/2.12.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSXRayRecorder.Core": "2.14.0"
+        },
+        "compile": {
+          "lib/net6.0/AWSXRayRecorder.Handlers.AwsSdk.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AWSXRayRecorder.Handlers.AwsSdk.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -4245,6 +4261,25 @@
         "lib/netcoreapp3.1/AWSXRayRecorder.Handlers.AspNetCore.xml",
         "lib/netstandard2.0/AWSXRayRecorder.Handlers.AspNetCore.dll",
         "lib/netstandard2.0/AWSXRayRecorder.Handlers.AspNetCore.xml"
+      ]
+    },
+    "AWSXRayRecorder.Handlers.AwsSdk/2.12.0": {
+      "sha512": "KqnFSk0lRCw97acEZpcRo3mKt2wodIsKJrHOPtF8bsRaXgVx6Avhg+erggksgWKvTTI1ytbZVsOKXeRda3E+kw==",
+      "type": "package",
+      "path": "awsxrayrecorder.handlers.awssdk/2.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awsxrayrecorder.handlers.awssdk.2.12.0.nupkg.sha512",
+        "awsxrayrecorder.handlers.awssdk.nuspec",
+        "lib/net45/AWSXRayRecorder.Handlers.AwsSdk.dll",
+        "lib/net45/AWSXRayRecorder.Handlers.AwsSdk.xml",
+        "lib/net462/AWSXRayRecorder.Handlers.AwsSdk.dll",
+        "lib/net462/AWSXRayRecorder.Handlers.AwsSdk.xml",
+        "lib/net6.0/AWSXRayRecorder.Handlers.AwsSdk.dll",
+        "lib/net6.0/AWSXRayRecorder.Handlers.AwsSdk.xml",
+        "lib/netstandard2.0/AWSXRayRecorder.Handlers.AwsSdk.dll",
+        "lib/netstandard2.0/AWSXRayRecorder.Handlers.AwsSdk.xml"
       ]
     },
     "Azure.Core/1.24.0": {
@@ -11915,6 +11950,7 @@
       "AWSSDK.SimpleNotificationService >= 3.7.200.51",
       "AWSXRayRecorder.Core >= 2.14.0",
       "AWSXRayRecorder.Handlers.AspNetCore >= 2.11.0",
+      "AWSXRayRecorder.Handlers.AwsSdk >= 2.12.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
@@ -11981,6 +12017,10 @@
           "AWSXRayRecorder.Handlers.AspNetCore": {
             "target": "Package",
             "version": "[2.11.0, )"
+          },
+          "AWSXRayRecorder.Handlers.AwsSdk": {
+            "target": "Package",
+            "version": "[2.12.0, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

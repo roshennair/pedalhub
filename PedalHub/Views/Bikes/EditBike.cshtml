@@ -25,21 +25,21 @@
                 <tr>
                     <th><label asp-for="Name"></label>:</th>
                     <td>
-                        <input asp-for="Name" />
+                        <input asp-for="Name" required />
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </td>
                 </tr>
                 <tr>
                     <th><label asp-for="DailyRentalPrice"></label>:</th>
                     <td>
-                        <input asp-for="DailyRentalPrice" />
+                        <input asp-for="DailyRentalPrice" required />
                         <span asp-validation-for="DailyRentalPrice" class="text-danger"></span>
                     </td>
                 </tr>
                 <tr>
                     <th><label asp-for="AvailableUnits"></label>:</th>
                     <td>
-                        <input asp-for="AvailableUnits" min="1" />
+                        <input asp-for="AvailableUnits" min="1" required />
                         <span asp-validation-for="AvailableUnits" class="text-danger"></span>
                     </td>
                 </tr>

@@ -2,9 +2,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PedalHub.Data;
 using PedalHub.Areas.Identity.Data;
+using Amazon.XRay.Recorder.Core;
+using Amazon.XRay.Recorder.Handlers.AwsSdk;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("PedalHubContextConnection") ?? throw new InvalidOperationException("Connection string 'PedalHubContextConnection' not found.");
+
+AWSSDKHandler.RegisterXRayForAllServices();
 
 builder.Services.AddDbContext<PedalHubContext>(options => options.UseSqlServer(connectionString));
 

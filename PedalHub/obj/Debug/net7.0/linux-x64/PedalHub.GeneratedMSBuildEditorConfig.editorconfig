@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PedalHub
+build_property.RootNamespace = PedalHub
+build_property.ProjectDir = C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/AddBike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcQWRkQmlrZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcQWRtaW5JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/EditBike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcRWRpdEJpa2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Bikes/ReserveBike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlrZXNcUmVzZXJ2ZUJpa2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Home/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Rentals/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xBZG1pbkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Rentals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Rentals/MakePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xNYWtlUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Rentals/ReturnBike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xSZXR1cm5CaWtlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Reservations/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEFkbWluSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Reservations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_FeaturesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GZWF0dXJlc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/roshe/OneDrive - Asia Pacific University/APU/Degree/Year 3/Semester 2/DDAC/Group Assignment/PedalHub/PedalHub/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z2rb5ulu9x

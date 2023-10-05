@@ -527,3 +527,8 @@ C:\Users\arvin\Desktop\pedalhub\PedalHub\obj\Debug\net7.0\PedalHub.pdb
 C:\Users\arvin\Desktop\pedalhub\PedalHub\obj\Debug\net7.0\PedalHub.genruntimeconfig.cache
 C:\Users\arvin\Desktop\pedalhub\PedalHub\obj\Debug\net7.0\ref\PedalHub.dll
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\AWSSDK.SimpleNotificationService.dll
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\Amazon.Lambda.SQSEvents.dll
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\AWSXRayRecorder.Core.dll
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\AWSXRayRecorder.Handlers.AspNetCore.dll
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\AWSXRayRecorder.Handlers.AwsSdk.dll
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\aws-beanstalk-tools-defaults.json
