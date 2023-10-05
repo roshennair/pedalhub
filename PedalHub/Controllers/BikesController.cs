@@ -19,6 +19,7 @@ namespace PedalHub.Controllers
         }
 
         private const string s3BucketName = "pedalhub-bike-images";
+        private const string cloudfrontDomain = "d35soteeq6wtnk.cloudfront.net";
 
         private List<string> getKeys()
         {
@@ -87,7 +88,7 @@ namespace PedalHub.Controllers
                 return BadRequest("Error: " + ex.Message);
             }
 
-            bike.ImageURL = "https://" + s3BucketName + ".s3.amazonaws.com/images/" + imageKey;
+            bike.ImageURL = "https://" + cloudfrontDomain + "/images/" + imageKey;
             bike.ImageKey = imageKey;
 
             _context.Bike.Add(bike);
