@@ -35,7 +35,7 @@
                 <th>User Email</th>
                 <th>Bike ID</th>
                 <th>Bike Name</th>
-                <th>Ongoing Rental</th>
+                <th>Ongoing</th>
                 <th>Total Price</th>
                 <th>Duration</th>
                 <th>Created At</th>
@@ -58,7 +58,6 @@
                     <td>@(rental.Duration.HasValue ? rental.Duration.ToString() : "-")</td>
                     <td>@rental.CreatedAt</td>
                     <td>
-                        <a asp-controller="Rentals" asp-action="Modify" class="btn btn-success" asp-route-id="@rental.Id">Modify</a>
                         <a asp-controller="Rentals" asp-action="Delete" class="btn btn-danger" asp-route-id="@rental.Id">Delete</a>
                     </td>
                 </tr>

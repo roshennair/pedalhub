@@ -7,10 +7,36 @@
     <h1>Return Bike</h1>
     <hr />
     <div class="row">
-        <form asp-action="ReturnBike" asp-controller="Rentals" method="post" enctype="multipart/form-data">
-            
+        <form asp-action="CalculatePayment" asp-controller="Rentals" method="post">
             <table>
-                
+                <tr style="display: none;">
+                    <td><input asp-for="Id" readonly /></td>
+                </tr>
+                <tr style="display: none;">
+                    <td>
+                    <input asp-for="UserId" readonly />
+                    </td>
+                </tr>
+                <tr style="display: none;">
+                    <td>
+                    <input asp-for="BikeId" readonly />
+                    </td>
+                </tr>
+                <tr style="display: none;">
+                    <td>
+                    <input asp-for="CreatedAt" readonly />
+                    </td>
+                </tr>
+                <tr style="display: none;">
+                    <td>
+                    <input asp-for="IsOngoing" readonly />
+                    </td>
+                </tr>
+                <tr style="display: none;">
+                    <td>
+                    <input asp-for="TotalPrice" readonly />
+                    </td>
+                </tr>
                 <tr>
                     <th><label asp-for="Duration"></label>:</th>
                     <td>
@@ -18,7 +44,6 @@
                         <span asp-validation-for="Duration" class="text-danger"></span>
                     </td>
                 </tr>
-
                 <tr>
                     <th colspan="2" class="">
                         <div class="d-flex flex-column">

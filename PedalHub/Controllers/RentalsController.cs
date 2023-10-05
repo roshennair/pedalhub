@@ -81,17 +81,63 @@ namespace PedalHub.Controllers
             return View(rental);
         }
 
-        //[Authorize(Roles = "Customer")]
-        //public async Task<IActionResult> RetuBike(Rental updatedRental)
-        //{
-        //    if (updatedRental == null)
-        //    {
-        //        return NotFound();
-        //    }
+        [Authorize(Roles = "Customer")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CalculatePayment(Rental updatedRental)
+        {
+            if (updatedRental == null)
+            {
+                return NotFound();
+            }
 
-        //    _context.Rentals.Update(updatedRental);
-        //    await _context.SaveChangesAsync();
-        //    return RedirectToAction("Index", "Rentals");
-        //}
+            Rental rental = await _context.Rentals.FindAsync(updatedRental.Id);
+            Bike bike = await _context.Bike.FindAsync(updatedRental.BikeId);
+
+            if (rental == null || bike == null)
+            {
+                return BadRequest("Missing rental or bike information in database");
+            }
+
+            rental.Duration = updatedRental.Duration;
+            rental.TotalPrice = (float?)(bike.DailyRentalPrice * rental.Duration);
+
+            return RedirectToAction("MakePayment", "Rentals", rental);
+        }
+
+        public IActionResult MakePayment(Rental rental)
+        {
+            return View(rental);
+        }
+
+        public async Task<IActionResult> Pay(Rental rental)
+        {
+            if (rental == null)
+            {
+                return NotFound();
+            }
+
+            Rental paidRental = await _context.Rentals
+                .Include(r => r.Bike)
+                .FirstOrDefaultAsync(r => r.Id == rental.Id);
+
+            if (paidRental == null)
+            {
+                return BadRequest("This rental does not exist"); 
+            }
+
+            paidRental.Duration = rental.Duration;
+            paidRental.TotalPrice = rental.TotalPrice;
+            paidRental.IsOngoing = false;
+
+            if (paidRental.Bike != null)
+            {
+                paidRental.Bike.AvailableUnits += 1;
+            }
+
+            _context.Rentals.Update(paidRental);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index", "Rentals");
+        }
     }
 }

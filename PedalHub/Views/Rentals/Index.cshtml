@@ -35,7 +35,7 @@
                 <th>Rental ID</th>
                 <th>Bike ID</th>
                 <th>Bike Name</th>
-                <th>Ongoing Rental</th>
+                <th>Ongoing</th>
                 <th>Total Price</th>
                 <th>Duration</th>
                 <th>Created At</th>
@@ -54,7 +54,14 @@
                     <td>@(rental.Duration.HasValue ? rental.Duration.ToString() : "-")</td>
                     <td>@rental.CreatedAt</td>
                     <td>
-                        <a asp-controller="Rentals" asp-action="ReturnBike" class="btn btn-success" asp-route-id="@rental.Id">Return Bike</a>
+                        @if (rental.IsOngoing)
+                        {
+                            <a asp-controller="Rentals" asp-action="ReturnBike" class="btn btn-success" asp-route-id="@rental.Id">Return Bike</a>
+                        }
+                        else
+                        {
+                            <span>Already returned.</span>
+                        }
                     </td>
                 </tr>
             }
