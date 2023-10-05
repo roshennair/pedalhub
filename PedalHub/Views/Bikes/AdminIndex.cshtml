@@ -6,30 +6,31 @@
 <center>
     <h1>Bikes</h1>
     <hr />
-    <a class="btn btn-success" asp-controller="Bikes" asp-action="AddBike" role="button">Add New Bike</a>
-    <div class="container mt-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-        @if (Model.Count == 0)
+    <a class="btn btn-success mb-3" asp-controller="Bikes" asp-action="AddBike" role="button">Add New Bike</a>
+    @if (Model.Count == 0)
         {
             <p>No bikes found.</p>
         }
         else
         {
-            @foreach (var bike in Model)
-            {
-                <div class="p-4" style="max-width: 24rem; border: 1px solid grey; display: flex; flex-direction: column; justify-content: space-between;">
-                    <img src="@bike.ImageURL" style="width: 100%; height: auto; display: block;" />
-                    <div>
-                        <h4 >@bike.Name</h4>
+            <div class="container" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+        
+                    @foreach (var bike in Model)
+                    {
+                        <div class="p-4" style="max-width: 24rem; border: 1px solid grey; display: flex; flex-direction: column; justify-content: space-between;">
+                            <img src="@bike.ImageURL" style="width: 100%; height: auto; display: block;" />
                             <div>
-                                <b>Daily rental price (RM):</b> @bike.DailyRentalPrice
+                                <h4 >@bike.Name</h4>
+                                    <div>
+                                        <b>Daily rental price (RM):</b> @bike.DailyRentalPrice
+                                    </div>
+                                    <div>
+                                        <b>Available units:</b> @bike.AvailableUnits
+                                    </div>
+                                <a class="btn btn-primary mt-2" asp-controller="Bikes" asp-action="EditBike" asp-route-id="@bike.Id">Edit</a>
                             </div>
-                            <div>
-                                <b>Available units:</b> @bike.AvailableUnits
-                            </div>
-                        <a class="btn btn-primary mt-2" asp-controller="Bikes" asp-action="EditBike" asp-route-id="@bike.Id">Edit</a>
-                    </div>
-                </div>
-            }
+                        </div>
+                    }
+            </div>
         }
-    </div>
 </center>
