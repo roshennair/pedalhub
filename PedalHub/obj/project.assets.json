@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Amazon.Lambda.SQSEvents/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AWSSDK.Core/3.7.202.20": {
         "type": "package",
         "compile": {
@@ -44,6 +57,42 @@
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSXRayRecorder.Core/2.14.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "3.3.25.1",
+          "Amazon.Lambda.SQSEvents": "2.1.0"
+        },
+        "compile": {
+          "lib/net6.0/AWSXRayRecorder.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AWSXRayRecorder.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "AWSXRayRecorder.Handlers.AspNetCore/2.11.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSXRayRecorder.Core": "2.14.0"
+        },
+        "compile": {
+          "lib/net6.0/AWSXRayRecorder.Handlers.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AWSXRayRecorder.Handlers.AspNetCore.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -4061,6 +4110,21 @@
     }
   },
   "libraries": {
+    "Amazon.Lambda.SQSEvents/2.1.0": {
+      "sha512": "a1xaCIuXDleJ8iRE3vHWWhtPqUiURmoQUS68INMEQmtfHr4wTz837TQZONo4cyubv5sZj78DDrYessZEzgFRGQ==",
+      "type": "package",
+      "path": "amazon.lambda.sqsevents/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.sqsevents.2.1.0.nupkg.sha512",
+        "amazon.lambda.sqsevents.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.xml",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.xml"
+      ]
+    },
     "AWSSDK.Core/3.7.202.20": {
       "sha512": "rRoHtZMcC5DYzA9WTOQd2kLor1sHC0GHippL1mCF7aA0oS4ZGm0wflm2TwtOfr2GpJk1f8Ez0Ho9xQp11cIeIw==",
       "type": "package",
@@ -4143,6 +4207,44 @@
         "lib/netstandard2.0/AWSSDK.SimpleNotificationService.xml",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "AWSXRayRecorder.Core/2.14.0": {
+      "sha512": "Ze+j7Pt+PCCP3zx17ncHGaRoWzIDsDsD2Pjawrxz2eox9ClNEWO36HCsRRXrZ63NVZ/J7AxXuD/x2hXrdgdUIQ==",
+      "type": "package",
+      "path": "awsxrayrecorder.core/2.14.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awsxrayrecorder.core.2.14.0.nupkg.sha512",
+        "awsxrayrecorder.core.nuspec",
+        "lib/net45/AWSXRayRecorder.Core.dll",
+        "lib/net45/AWSXRayRecorder.Core.xml",
+        "lib/net462/AWSXRayRecorder.Core.dll",
+        "lib/net462/AWSXRayRecorder.Core.xml",
+        "lib/net6.0/AWSXRayRecorder.Core.dll",
+        "lib/net6.0/AWSXRayRecorder.Core.xml",
+        "lib/netcoreapp3.1/AWSXRayRecorder.Core.dll",
+        "lib/netcoreapp3.1/AWSXRayRecorder.Core.xml",
+        "lib/netstandard2.0/AWSXRayRecorder.Core.dll",
+        "lib/netstandard2.0/AWSXRayRecorder.Core.xml"
+      ]
+    },
+    "AWSXRayRecorder.Handlers.AspNetCore/2.11.0": {
+      "sha512": "hmnaVhn2OOs1L4RjxVzbvfOvmLSYa5Q5rXIyP9hFp4BwW3TSNHz12E2IsgUns5wvkQ20ezsFhiifc/UnFhSFpg==",
+      "type": "package",
+      "path": "awsxrayrecorder.handlers.aspnetcore/2.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awsxrayrecorder.handlers.aspnetcore.2.11.0.nupkg.sha512",
+        "awsxrayrecorder.handlers.aspnetcore.nuspec",
+        "lib/net6.0/AWSXRayRecorder.Handlers.AspNetCore.dll",
+        "lib/net6.0/AWSXRayRecorder.Handlers.AspNetCore.xml",
+        "lib/netcoreapp3.1/AWSXRayRecorder.Handlers.AspNetCore.dll",
+        "lib/netcoreapp3.1/AWSXRayRecorder.Handlers.AspNetCore.xml",
+        "lib/netstandard2.0/AWSXRayRecorder.Handlers.AspNetCore.dll",
+        "lib/netstandard2.0/AWSXRayRecorder.Handlers.AspNetCore.xml"
       ]
     },
     "Azure.Core/1.24.0": {
@@ -11811,6 +11913,8 @@
     "net7.0": [
       "AWSSDK.S3 >= 3.7.205.3",
       "AWSSDK.SimpleNotificationService >= 3.7.200.51",
+      "AWSXRayRecorder.Core >= 2.14.0",
+      "AWSXRayRecorder.Handlers.AspNetCore >= 2.11.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
@@ -11869,6 +11973,14 @@
           "AWSSDK.SimpleNotificationService": {
             "target": "Package",
             "version": "[3.7.200.51, )"
+          },
+          "AWSXRayRecorder.Core": {
+            "target": "Package",
+            "version": "[2.14.0, )"
+          },
+          "AWSXRayRecorder.Handlers.AspNetCore": {
+            "target": "Package",
+            "version": "[2.11.0, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

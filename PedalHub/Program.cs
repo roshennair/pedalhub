@@ -27,6 +27,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseXRay("PedalHub");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

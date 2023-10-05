@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kZN9on71ezo3OaxB6yfzfcN5moqSnmXz8g8QVE00SScU/nuWRgSlLXQbzkMiLc8EVbGOgz7FrRacSreKQG500g==",
+  "dgSpecHash": "/v0jWA+gLnfB+aPHPJLlWtc8arkMyUppi28ixvqYFbwvXoBN1Znx4BMFGfMggg0oGQ9Nt4ZLNl7G8HsDv5ml5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\roshe\\OneDrive - Asia Pacific University\\APU\\Degree\\Year 3\\Semester 2\\DDAC\\Group Assignment\\PedalHub\\PedalHub\\PedalHub.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\roshe\\.nuget\\packages\\amazon.lambda.sqsevents\\2.1.0\\amazon.lambda.sqsevents.2.1.0.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\awssdk.core\\3.7.202.20\\awssdk.core.3.7.202.20.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\awssdk.s3\\3.7.205.3\\awssdk.s3.3.7.205.3.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.200.51\\awssdk.simplenotificationservice.3.7.200.51.nupkg.sha512",
+    "C:\\Users\\roshe\\.nuget\\packages\\awsxrayrecorder.core\\2.14.0\\awsxrayrecorder.core.2.14.0.nupkg.sha512",
+    "C:\\Users\\roshe\\.nuget\\packages\\awsxrayrecorder.handlers.aspnetcore\\2.11.0\\awsxrayrecorder.handlers.aspnetcore.2.11.0.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\roshe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

@@ -52,6 +52,14 @@
               "target": "Package",
               "version": "[3.7.200.51, )"
             },
+            "AWSXRayRecorder.Core": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "AWSXRayRecorder.Handlers.AspNetCore": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.10, )"
