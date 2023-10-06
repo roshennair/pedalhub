@@ -71,8 +71,7 @@ namespace PedalHub.Controllers
 				return NotFound();
 			}
 
-			Reservation reservation = await _context.Reservation
-                .Include(r => r.Bike)
+			Reservation reservation = await _context.Reservation.Include(r => r.Bike)
                 .FirstOrDefaultAsync(r => r.Id == id);
 
             if (reservation == null)

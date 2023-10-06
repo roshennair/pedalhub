@@ -565,3 +565,4 @@ C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\D
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\obj\Debug\net7.0\linux-x64\PedalHub.pdb
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\obj\Debug\net7.0\linux-x64\PedalHub.genruntimeconfig.cache
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\obj\Debug\net7.0\linux-x64\ref\PedalHub.dll
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\linux-x64\aws-beanstalk-tools-defaults.json

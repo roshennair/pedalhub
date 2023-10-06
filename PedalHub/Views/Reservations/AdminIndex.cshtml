@@ -33,7 +33,8 @@
                 <th>Bike ID</th>
                 <th>Bike Name</th>
                 <th>Created At</th>
-                <th>Actions</th>
+                <th>Approve</th>
+                <th>Reject</th>
             </tr>
             @foreach (var reservation in Model)
             {
@@ -49,7 +50,16 @@
                     <td>@bike.Name</td>
                     <td>@reservation.CreatedAt</td>
                     <td>
-                        <a asp-controller="Reservations" asp-action="Approve" class="btn btn-success" asp-route-id="@reservation.Id">Approve</a>
+                        @if (reservation.Bike.AvailableUnits > 0)
+                        {
+                            <a asp-controller="Reservations" asp-action="Approve" class="btn btn-success" asp-route-id="@reservation.Id">Approve</a>
+                        }
+                        else
+                        {
+                            <span>No available units</span>
+                        }
+                    </td>
+                    <td>
                         <a asp-controller="Reservations" asp-action="Reject" class="btn btn-danger" asp-route-id="@reservation.Id">Reject</a>
                     </td>
                 </tr>

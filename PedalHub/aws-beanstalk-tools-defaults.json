@@ -8,7 +8,7 @@
     "environment"    : "PedalHub-prod",
     "enable-xray"    : true,
     "enhanced-health-type" : "enhanced",
-    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-09dd79185006b7515,sg-035e3f71e9c5cf7b3\";\"aws:ec2:vpc,Subnets\"=\"subnet-0494f766ce3cfdbef\"",
+    "additional-options"   : "",
     "solution-stack"       : "64bit Amazon Linux 2 v2.5.7 running .NET Core",
     "environment-type"     : "SingleInstance",
     "cname"                : "pedalhub-prod",

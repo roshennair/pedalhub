@@ -1,6 +1,7 @@
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\publish\PedalHub
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\publish\appsettings.Development.json
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\publish\appsettings.json
+C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\publish\aws-beanstalk-tools-defaults.json
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\publish\PedalHub.dll
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\publish\PedalHub.runtimeconfig.json
 C:\Users\roshe\OneDrive - Asia Pacific University\APU\Degree\Year 3\Semester 2\DDAC\Group Assignment\PedalHub\PedalHub\bin\Debug\net7.0\publish\PedalHub.pdb
